@@ -9,7 +9,7 @@ import time
 
 input_fasta = sys.argv[1]
 output_fasta = sys.argv[2]
-step = 10
+step = 10 #this means take one base every ten nucleotides
 
 input_alignment = open(input_fasta,"r")
 output_fasta = open(output_fasta,"w")
